@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tirage LONATO - Random 0-9</title>
+    <link rel="stylesheet" href="lonato.css" />
+</head>
+<body>
+
+<div class="container">+
+    <h1>⚡ LONATO</h1>
+    <div class="subtitle">Tirage • Nombres 00–90</div>
+
+    <!-- Grille 5 colonnes : chaque colonne = une paire de chiffres -->
+    <div class="grid" id="grid">
+        <!-- Généré par JS -->
+    </div>
+
+    <div class="controls">
+        <button class="btn-tirage" id="btnTirage">🎯 Lancer le tirage</button>
+        <button class="btn-secondary" id="btnReset">⟳ Réinitialiser</button>
+    </div>
+
+    <div class="status" id="status">Prêt — appuie sur "Lancer le tirage"</div>
+
+    <div class="history">
+        <div class="history-title">📋 Derniers tirages</div>
+        <div class="history-list" id="historyList"></div>
+    </div>
+</div>
+
+<script src="lonato.js"></script>
+</body>
+</html>
